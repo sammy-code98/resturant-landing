@@ -6,7 +6,7 @@ function App() {
     <Router>
       <GlobalStyles />
         <Navbar />{" "}
-    </Router>
+  </Router>
   );
 }
 
