@@ -23,8 +23,7 @@ overflow: hidden;
 
 export const MealsImage = styled.div`
 width: 100%;
-height: 700px;
-border-radius:12px;
+height: 100%;
 @media only screen and (max-width: 1000px) {
     display: flex;
     justify-content: center;
@@ -44,14 +43,14 @@ export const Img = styled.img`
 }
 @media only screen and (max-width:1000px){
     width: 700px;
-    height: 300px;
+    height: 500px;
 }
 @media only screen and (max-width:700px){
-    width: 200px;
+    width: 600px;
 }
 @media only screen and (max-width:500px){
     width: 400px;
-    height: 200px;
+    height: 300px;
 }
 @media only screen and (max-width:400px){
     width: 350px;
