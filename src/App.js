@@ -6,6 +6,7 @@ import Works from "./components/Works/Works";
 import Welcome from "./components/Welcome/Welcome";
 import Recipe from "./components/Recipe/Recipe";
 import Meals from "./components/Personal/Meals";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
       <Welcome />
       <Recipe />
       <Meals />
+      <Footer />
     </Router>
   );
 }
