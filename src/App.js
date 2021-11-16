@@ -3,6 +3,7 @@ import GlobalStyles from "./GlobalStyles";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Works from "./components/Works/Works";
+import Welcome from "./components/Welcome/Welcome";
 function App() {
   return (
     <Router>
@@ -10,6 +11,7 @@ function App() {
       <Navbar /> 
       <Hero />
       <Works />
+      <Welcome />
     </Router>
   );
 }
