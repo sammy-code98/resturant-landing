@@ -1,12 +1,12 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import GlobalStyles from "./GlobalStyles";
+import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
-    <>
-    <GlobalStyles/>
-    <div>
-     hello
-    </div>
-    </>
+    <Router>
+      <GlobalStyles />
+        <Navbar />{" "}
+    </Router>
   );
 }
 
