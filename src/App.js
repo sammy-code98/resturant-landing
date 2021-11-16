@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Works from "./components/Works/Works";
 import Welcome from "./components/Welcome/Welcome";
 import Recipe from "./components/Recipe/Recipe";
+import Meals from "./components/Personal/Meals";
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
       <Works />
       <Welcome />
       <Recipe />
+      <Meals />
     </Router>
   );
 }
